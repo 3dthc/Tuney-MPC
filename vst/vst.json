@@ -1,0 +1,29 @@
+{
+  "name": "Tuney",
+  "vendor": "3DTHC",
+  "uid": "Tuny",
+  "version": 1420,
+  "so": "tuney.so",
+  "params": "params.json",
+  "effect": true,
+  "build": {
+    "root": "..",
+    "sources": [
+      "src/engine.cpp"
+    ],
+    "cflags": [
+      "-O2"
+    ],
+    "libs": [
+      "-lm"
+    ]
+  },
+  "layout": "layout.conf",
+  "art": "html",
+  "skin_post": "skin_post.py",
+  "presets": "presets.json",
+  "defines": {
+    "HAS_DISPLAY_REV": 1,
+    "DISPLAY_REV_NO_UPDATE": 1
+  }
+}

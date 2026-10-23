@@ -1,0 +1,10 @@
+{
+  "presets": [
+    {"name": "Hard Tune", "values": {"retune": 100, "transition": 100, "amount": 100, "humanize": 0, "vibrato": 0}},
+    {"name": "Tight", "values": {"retune": 95, "transition": 85, "amount": 100, "humanize": 0, "vibrato": 15}},
+    {"name": "Natural", "values": {"retune": 85, "transition": 65, "amount": 100, "humanize": 10, "vibrato": 35}},
+    {"name": "Smooth", "values": {"retune": 75, "transition": 45, "amount": 100, "humanize": 25, "vibrato": 55}},
+    {"name": "Subtle", "values": {"retune": 60, "transition": 30, "amount": 90, "humanize": 35, "vibrato": 75}},
+    {"name": "User", "values": {"retune": 95, "transition": 80, "amount": 100, "humanize": 0, "vibrato": 10, "scale": 6, "note_C": 1, "note_Cs": 1, "note_D": 1, "note_Ds": 1, "note_E": 1, "note_F": 1, "note_Fs": 1, "note_G": 1, "note_Gs": 1, "note_A": 1, "note_As": 1, "note_B": 1}}
+  ]
+}
