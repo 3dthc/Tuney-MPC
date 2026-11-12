@@ -17,12 +17,12 @@ on:
 
 jobs:
   vst:
-    uses: sd88me/mpc-vst-plugins/.github/workflows/vst-release.yml@8aa8d3552a55a93eb4034bb9bbb02cbe91d69b61
+    uses: 3dthc/mpc-vst-plugins/.github/workflows/vst-release.yml@bee650d7d6444f972933d991ded3b9e095e169a7
     permissions: { contents: write }
     with:
       tag: tuney-vst-v${{ inputs.version }}
       version: ${{ inputs.version }}
-      tools_ref: 8aa8d3552a55a93eb4034bb9bbb02cbe91d69b61
+      tools_ref: bee650d7d6444f972933d991ded3b9e095e169a7
       vst_dir: vst
       build: '"$MPC_VST/tools/build_port.sh" vst/vst.json'
       host_test: '"$MPC_VST/tools/test_port.sh" vst/vst.json'
@@ -30,3 +30,4 @@ jobs:
       plugin_id: tuney
       license: MIT
       dry_run: ${{ inputs.dry_run }}
+      desktop: true
