@@ -27,5 +27,10 @@
     "HAS_DISPLAY_REV": 1,
     "DISPLAY_REV_NO_UPDATE": 1
   },
-  "targets": ["armv7", "aarch64"]
+  "targets": [
+    "armv7",
+    "aarch64"
+  ],
+  "au_vendor": "3dthc",
+  "au_manufacturer": "3Dth"
 }
