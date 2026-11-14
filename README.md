@@ -1,5 +1,7 @@
 # Tuney
 
+[![Support me on Ko-fi](https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/3dthc)
+
 Real-time vocal pitch correction for Akai MPC OS standalone devices, as a native VST2 audio effect built with
 [mpc-vst-plugins](https://github.com/sd88me/mpc-vst-plugins).
 
